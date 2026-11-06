@@ -1,0 +1,17 @@
+[user]
+	name = os-htk
+	email = 205730346+os-htk@users.noreply.github.com
+[init]
+	defaultBranch = main
+[core]
+	excludesFile = ~/.gitignore_global
+	eol = lf
+	autocrlf = input
+	ignorecase = false
+	quotepath = false
+[credential "https://github.com"]
+	helper =
+	helper = !gh auth git-credential
+[credential "https://gist.github.com"]
+	helper =
+	helper = !gh auth git-credential

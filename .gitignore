@@ -1,0 +1,18 @@
+# Secrets / authentication tokens
+**/.config/gh/hosts.yml
+.ssh/
+.aws/
+.env
+.env.*
+*.pem
+*.key
+
+# Machine-specific config, never shared
+*.local
+*.local.md
+**/.claude/settings.local.json
+**/.claude/machine.md
+
+# macOS
+.DS_Store
+._*
